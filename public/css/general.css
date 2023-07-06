@@ -1,10 +1,19 @@
-:root{
-    --celeste : #3483fa;
-    --amarillo : #fff159;
-    --verde : #00a650;
-    --gris :#666;
-    --amarilloFuerte : #ffe600;
-    --azul : #2d3277;
+:root {
+    /* Paleta de colores */
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a;
+  
+    /* Tipografías */
+    --tipografiaGeneral: 'Roboto', sans-serif;
     
-
+    /* Tamaños */
+    --size-cuerpo: 12px;
+    --size-titular: 24px;
+    --size-precio: 18px;
+    --size-descuento: 16px;
+    --size-descripcion: 16px;
 }

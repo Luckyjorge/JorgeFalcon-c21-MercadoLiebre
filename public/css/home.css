@@ -1,0 +1,118 @@
+.header__logo {
+  width: 120px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.header__search{
+  text-align: center;
+}
+.header__search__box {
+  margin-top: 10px;
+  padding-left: 16px;
+}
+
+.header__search__lupa{
+  background-color:var(--gris-claro);
+  padding: 1px;
+}
+.home__menu li{
+  list-style: none;
+}
+.home__cuenta li{
+  list-style: none;
+}
+
+.home a {
+  text-decoration: none;
+  color: black;
+}
+
+.hand {
+  font-size: var(--size-cuerpo);
+  margin-left: 40px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.header__title {
+  font-family: var(--tipografiaGeneral);
+  font-size: var(--size-cuerpo);
+  font-weight: 400;
+  text-align: center;
+}
+
+.home__menu {
+  font-size: var(--size-cuerpo);
+  margin: 10px 0;
+}
+
+.home__cuenta {
+  font-size: var(--size-cuerpo);
+}
+
+.home__header__burguer {
+  background-color: var(--celeste);
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15px;
+  height: 23px;
+  border-radius: 3px;
+}
+
+
+/* MAIN */
+.item__card{
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 12px;
+    width: 50%;
+    border: 1px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+.home__main__historial img{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.home__main__ofertas img{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.nombreProducto{
+  font-weight: bold;
+}
+
+.descuento{
+  color: var(--verde);
+  font-size: smaller;
+}
+/* Footer */
+.footer{
+    text-align: center;
+}
+.footer i {
+
+  color: var(--celeste);
+  font-size: 2em;
+  margin: 40px 0 10px;
+}
+
+.footer__titulo {
+  font-family: var(--tipografiaGeneral);
+  color: var(--gris-oscuro);
+  font-size: 1em;
+}
+.footer__descripcion{
+font-size: var(--size-cuerpo);
+font-family: var(--tipografiaGeneral);
+}
+
+.copyright {
+  font-size: var(--size-cuerpo);
+  font-family: var(--tipografiaGeneral);
+  margin-top: 40px;
+  }
