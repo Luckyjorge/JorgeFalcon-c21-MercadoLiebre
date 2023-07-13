@@ -1,0 +1,25 @@
+.footer{
+    text-align: center;
+}
+.footer i {
+  color: var(--celeste);
+  font-size: 2em;
+  margin: 40px 0 10px;
+}
+
+.footer__titulo {
+  font-family: var(--tipografiaGeneral);
+  color: var(--gris-oscuro);
+  font-size: 1em;
+}
+.footer__descripcion{
+font-size: var(--size-cuerpo);
+font-family: var(--tipografiaGeneral);
+}
+
+.copy h4{
+  font-size: 12px;
+  color: var(--gris-oscuro);
+  margin: 0 35px 50px;
+  font-weight: 400;
+  }
