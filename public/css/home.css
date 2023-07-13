@@ -1,0 +1,140 @@
+.home {
+  margin: auto;
+  box-sizing: border-box;
+  background-color: var(--gris-claro);
+}
+
+.home h3,
+.home__main__ofertas h3 {
+  text-align: center;
+  color: var(--gris-oscuro);
+  font-size: 24px;
+}
+.home {
+  font-family: "Roboto", sans-serif;
+}
+
+.home__menu li {
+  list-style: none;
+}
+.home__cuenta li {
+  list-style: none;
+}
+
+.home a {
+  text-decoration: none;
+  color: black;
+}
+.home__banner img {
+  width: 100vw;
+}
+
+.home__menu {
+  font-size: var(--size-cuerpo);
+  margin: 10px 0;
+}
+
+.home__cuenta {
+  font-size: var(--size-cuerpo);
+}
+.home__header__burger {
+  text-align: center;
+}
+.home__header__burger i {
+  background-color: var(--celeste);
+  color: white;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.item__card {
+  margin: 0 auto;
+  text-align: center;
+  padding: 8px 12px;
+  width: 50%;
+  border: 10px black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  background-color: #ebebeb;
+}
+
+.home__main__historial,
+.home__main__ofertas {
+  width: 100vw;
+  margin: auto;
+}
+.home__main__historial img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.home__main__ofertas img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.nombreProducto {
+  font-weight: bold;
+  color: var(--gris-oscuro);
+}
+
+.item__card__detalles .precio {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  color: var(--gris-oscuro);
+  font-weight: bold;
+}
+
+.descuento {
+  font-size: 16px;
+  color: var(--verde);
+  line-height: 24px;
+  margin: 0;
+}
+
+.item__card__detalles i {
+  color: var(--verde);
+  border: solid 1px var(--verde);
+  border-radius: 50%;
+  padding: 5px;
+}
+.item__card__detalles {
+  border-top: solid 1px var(--gris-claro);
+  padding: 15px;
+  background-color: white;
+  text-align: left;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+  .home__main__historial,
+  .home__main__ofertas {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .home_header--menu {
+    margin: 0;
+    display: block;
+  }
+  .home__header__burger i{
+    display: none;
+  }
+  .home_header__title {
+    padding: 10px 0 15px;
+  }
+  .home__menu .home__cuenta ul {
+    margin: 0;
+  }
+
+  .item__card {
+    margin: 0 auto 10px;
+    color: var(--colorGrisOscuro);
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+ .nombreProducto{
+  display: none;
+ }
+}

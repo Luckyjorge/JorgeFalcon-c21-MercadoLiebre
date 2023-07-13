@@ -1,0 +1,40 @@
+.header {
+  background-color: var(--amarillo);
+  font-family: var(--tipografiaGeneral);
+}
+.header__logo {
+  width: 120px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.header__search {
+  text-align: center;
+  margin: 10px;
+}
+.header__search__box {
+  margin-top: 10px;
+  padding-left: 16px;
+}
+
+.header__search__lupa {
+  margin-left: 0px;
+  font-size: 16px;
+  padding: 1px;
+  background-color: var(--gris-claro);
+  border: solid 1px var(--gris-oscuro);
+  border-radius: 15%;
+}
+
+.header__hand {
+  font-size: var(--size-cuerpo);
+  margin-left: 40px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.header__title {
+  font-family: var(--tipografiaGeneral);
+  font-size: var(--size-cuerpo);
+  font-weight: 400;
+  text-align: center;
+}
