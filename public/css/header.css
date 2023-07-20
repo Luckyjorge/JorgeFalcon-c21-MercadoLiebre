@@ -10,16 +10,18 @@
 .header__search {
   text-align: center;
   margin: 10px;
+  display: flex;
 }
 .header__search__box {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   padding-left: 16px;
+  width: 33vw;
 }
 
 .header__search__lupa {
   margin-left: 0px;
   font-size: 16px;
-  padding: 1px;
+  padding: 3px;
   background-color: var(--gris-claro);
   border: solid 1px var(--gris-oscuro);
   border-radius: 15%;
@@ -37,4 +39,98 @@
   font-size: var(--size-cuerpo);
   font-weight: 400;
   text-align: center;
+}
+.home__links ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 480px) {
+  .header__top{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+
+   .header__title {
+    flex-basis: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .header__logo,
+  .header__search {
+  flex-basis: 40%;
+}
+
+.header__search{
+  margin-top: 20px;
+  display: flex;
+  position: relative;
+}
+.header__search__box{
+  margin-top: 0;
+  padding: 5px;
+  border-radius: 8px;
+}
+.search-icon {
+  position: absolute;
+  right: 5px;
+  color: #aaa;
+  top: 4px;
+}
+
+.search-icon i {
+  font-size: 16px;
+}
+.header__search__lupa{
+  padding: 3px;
+  background-color: transparent;
+  border: none;
+}
+.home__links{
+  display: none;
+}
+.home__header__burger i{
+  display: block;
+}
+}
+@media (min-width:481px) and (max-width:5000px) {
+  .header__top{
+    display: flex;
+  }
+  .header__logo{
+    width: 300px;
+  }
+  .header__search{
+    margin: auto;
+  }
+  .header__title{
+    margin: auto;
+  }
+  .home__header__burger{
+    display: none;
+  }
+  .home__links{
+    display: flex;
+    justify-content: space-between;
+  }
+  .home__links li {
+    padding:10px
+  }
+  .home__menu ul{
+    padding-left: 10px;
+  }
+  .home__cuenta ul{
+    padding-left: 0;
+    padding-right: 10px;
+  }
+  .home__cuenta,
+  .home__menu{
+    margin: 10px 0;
+  }
 }
