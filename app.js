@@ -1,7 +1,7 @@
 const express = require("express")
 const app = express()
 const path = require('path');
-const PORT = 3000
+const PORT = 3030
 
 //agregado static
 app.use(express.static('public'));
@@ -19,11 +19,13 @@ app.get("/register", (req, res) => {
 app.get("/login", (req, res) => {
     res.sendFile(path.join(__dirname, "views", "login.html"))
 })
+
 //agregado 404
 app.get("/*", (req, res) => {
     res.sendFile(path.join(__dirname, "views", "404.html"))
 })
 //levantando el server
+
 app.listen(PORT, ()=> {
     console.log(`TUKI TU SERVER EN http://localhost:${PORT}`)
 })
