@@ -1,0 +1,23 @@
+{
+  "name": "marcadorlibre",
+  "version": "1.0.0",
+  "description": "Clon de MeLi ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "Clon",
+    "mercado",
+    "libre",
+    "mercadolibre",
+    "estudiante"
+  ],
+  "author": "Jorge Falcon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}

@@ -1,0 +1,83 @@
+.register__form {
+  border: 4px solid black;
+  width: 50vw;
+  display: flex;
+  margin: auto;
+  border-radius: 20px;
+  justify-items: center;
+}
+.form__categorias {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.form__categorias__item {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.register__title {
+  
+  text-align: center;
+  color: var(--gris-oscuro);
+}
+
+.compra__venta {
+  
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.register__form > form {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-family: var(--tipografiaGeneral);
+}
+
+.register__form >form > label,
+.register__form >form > input[type="text"],
+.register__form >form > input[type="email"],
+.register__form >form > input[type="password"],
+.register__form >form > input[type="date"],
+.register__form >form > input[type="radio"],
+.register__form >form > input[type="checkbox"] {
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.register__form >form > input[type="radio"],
+.register__form >form > input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.form__buttons > button{
+  display: block;
+  margin: 15px auto;
+  border-color: transparent;
+  border-radius: 0.2222222222em;
+  box-sizing: content-box;
+  color: #fff;
+  content: "";
+  padding: 0.0555555556em;
+  transform-origin: left center;
+}
+button[type="submit"]{
+width: 55%;
+background-color: #2968c8;
+}
+button[type="reset"]{
+  justify-content: space-around;
+  color: var(--gris-claro);
+  background-color: var(--gris-oscuro);
+  width: 40%;
+  
+}
+ #foto_usuario{
+  margin-bottom: 15px;
+ }
