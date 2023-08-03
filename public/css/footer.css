@@ -1,16 +1,27 @@
 .footer{
-    text-align: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer section {
+flex-basis: 30%; 
+padding: 20px;
+text-align: center;
+}
+.footer .fa-solid:hover{
+color: #0055aa;
+scale: 1.1;
 }
 .footer i {
-  color: var(--celeste);
-  font-size: 2em;
-  margin: 40px 0 10px;
+color: var(--celeste);
+font-size: 2em;
+margin: 40px 0 10px;
 }
 
 .footer__titulo {
-  font-family: var(--tipografiaGeneral);
-  color: var(--gris-oscuro);
-  font-size: 1em;
+font-family: var(--tipografiaGeneral);
+color: var(--gris-oscuro);
+font-size: 1em;
 }
 .footer__descripcion{
 font-size: var(--size-cuerpo);
@@ -18,8 +29,8 @@ font-family: var(--tipografiaGeneral);
 }
 
 .copy h4{
-  font-size: 12px;
-  color: var(--gris-oscuro);
-  margin: 0 35px 50px;
-  font-weight: 400;
-  }
+font-size: 12px;
+color: var(--gris-oscuro);
+margin: 0 35px 50px;
+font-weight: 400;
+}
